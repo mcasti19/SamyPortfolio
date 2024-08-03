@@ -1,0 +1,590 @@
+* {
+  margin: 0;
+  /* box-sizing: content-box; */
+  /* outline: 1px solid black; */
+}
+
+* {
+  /* transition: all 0.5s ease-in; */
+
+}
+
+.bi-moon-stars-fill {
+  display: block;
+  color: #08beff;
+  font-size: 2rem;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  outline: 1px solid #08beff;
+}
+
+.changeTheme {
+  border: none;
+}
+
+
+/* Barra de navegacion */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #f5f6f7;
+  /* border: 1px solid; */
+}
+
+.navbar-collapse {
+  align-content: center;
+  justify-content: space-between;
+}
+
+.themeButton {
+  position: absolute;
+  right: 5%;
+}
+
+/* Estilos Generales*/
+
+section:not(.contacto) {
+  min-height: 100vh;
+  min-height: clamp(100vh, 750px, 100vh);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Rubik Dirt", system-ui;
+}
+
+.seccion_oscura {
+  background-color: #1b1b32;
+  color: white;
+}
+
+.seccion_clara {
+  color: black;
+  background-color: white;
+}
+
+.section_title {
+  font-size: 2rem;
+  font-family: "Rubik Dirt", system-ui;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.seccion_descripcion {
+  font-size: 1rem;
+  color: #584e4e;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.section_text {
+  font-size: 1.2rem;
+}
+
+.btn_info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+
+.texto_negro {
+  color: black;
+}
+
+.texto_blanco {
+  color: white;
+}
+
+/*Section Hero*/
+
+.hero {
+  display: flex;
+  background-color: #f5f6f7;
+  text-align: center;
+  flex-direction: column;
+
+
+}
+
+/* .hero_principal {
+  padding: .5rem;
+  border: 1px solid;
+} */
+
+.hero_img {
+  /* border-radius: 50%; */
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.hero_principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+/* ABOUT ME */
+.about_me {
+  padding: 10px;
+  /* height: 850px; */
+}
+
+.about_container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.about_item {
+  position: relative;
+
+}
+
+.about_item img {
+  width: 150px;
+  height: 150px;
+}
+
+.about_text {
+  padding: 0 1rem;
+}
+
+
+/* .imagen-circular {
+  width: 100px;
+  height: 100px;
+  float: left;
+  shape-outside: circle(50% at 50% 50%);
+}
+
+.texto {
+  font-size: 18px;
+  line-height: 1.5;
+  padding-left: 20px;
+} */
+
+/* SECCION DESTREZAS*/
+
+.destrezas {
+  /* padding: 50px 0; */
+}
+
+.destrezas_contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.destreza {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.destreza i {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.destreza h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.destreza p {
+  font-size: 16px;
+  color: #666;
+}
+
+/*ESPECIALIDADES*/
+
+.especialidades {
+  margin: 0;
+  padding: 0;
+  width: 90%;
+  list-style: none;
+}
+
+
+.especialidades li {
+  display: flex;
+  gap: 2px;
+}
+
+.plataformas {
+  display: grid;
+  place-items: center;
+}
+
+.plataformas h2 {
+  text-align: center;
+}
+
+.plataformas_container {
+  width: 90%;
+  max-width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  gap: 25px;
+}
+
+.plataforma {
+  /* aspect-ratio: 4/4; */
+  /* width: 10%;
+  height: 110px; */
+  width: clamp(120px, 40%, 220px);
+}
+
+.plataforma img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECCION EXPERIENCIA */
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  outline: 1px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* transition: all 0.2s ease-in; */
+}
+
+.experiencia .columna:hover {
+  background-color: #1b1b32;
+  color: #f5f6f7;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia_titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 2px;
+}
+
+/* SECCION PROYECTOS */
+.proyectos_recientes {
+  padding: 40px;
+}
+
+.proyectos_recientes img {
+  /* height: 100%; */
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  /* transition: all 0.4s ease; */
+}
+
+.proyectos_contenedor {
+  padding-top: 45px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  /* transition: all 0.4s ease; */
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.overlay p {
+  /* font-size: 25px; */
+  font-size: calc(.6em + 1.5vw);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+  color: #1b1b32;
+}
+
+.overlay .iconos_contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.overlay i {
+  color: black;
+  /* font-size: 3.5em; */
+  font-size: calc(2em + 1vw);
+  margin: 10px;
+}
+
+/* Articulos */
+
+.arcitulos {
+  /* min-height: 500px; */
+  padding: 30px;
+
+}
+
+.arcitulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+/* Testimonios */
+.testimonios {
+  padding: 0px 40px 80px 40px;
+}
+
+.testimonios .carousel {
+  max-width: 800px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonio_image {
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 20px 10px;
+}
+
+.testimonio_texto {
+  max-width: 70%;
+  /* font-size: 20px; */
+  font-size: clamp(14px, 1.5vw, 30px);
+  text-align: center;
+  font-family: "Share Tech Mono", monospace;
+}
+
+
+.testimonio_info {
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonio_info p {
+  margin-bottom: 0;
+}
+
+.testimonio_info .cliente {
+  font-size: 1.2rem;
+}
+
+.testimonio_info .cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  /* transition: all 0.2s ease-in-out; */
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  /* transition: all 0.2s ease-in-out; */
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
+/* Footer */
+
+footer {
+  min-height: 500px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.footer_text {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.social_media a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  /* transition: all 0.2s ease-in-out; */
+}
+
+.social_media a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.social_media i {
+  color: white;
+  font-size: 1.5rem;
+  /* transition: all 0.2s ease-in; */
+}
+
+.social_media a:hover i {
+  color: black;
+}
+
+.copyright {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+  bottom: 100;
+}
+
+/* MediaQuery */
+
+@media screen and (max-width:768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero_inferior_img {
+    width: 600px;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  .testimonio_image {
+    width: 100px;
+    height: 100px;
+  }
+  .testimonio_texto {
+    font-size: 18px;
+  }
+} */
+
+/* @media screen and (max-width:400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+    .overlay i {
+    font-size: 40px;
+  }
+} */

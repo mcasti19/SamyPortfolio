@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- METADATOS -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Moisés Castillo">
+  <meta name="keywords" content="HTML, CSS, Javascript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Desarrollo Web de Moises Castillo">
+  <!-- TITULO -->
+  <title>Smantha Marcano | Portafolio</title>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="./src/images/thenounproject.png" type="image/x-icon">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/style-dark.css" id="dark-theme" disabled>
+  <!-- GOOGLE FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&family=Quicksand:wght@300..700&display=swap"
+    rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Share+Tech+Mono&display=swap" rel="stylesheet"> -->
+
+
+
+
+</head>
+
+<body>
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="./src/images/Logo Samy.png" width="50" alt="Logo de la Pagina Web">
+        </a>
+
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#aboutMe">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- 
+  <button onclick="changeTheme()" class="themeButton btn rounded-fill">
+    <i id="dl-icon" class="bi bi-moon-stars-fill"></i>
+  </button> -->
+
+
+  <!-- Section Hero -->
+  <section class="hero">
+    <div class="hero_principal">
+      <img class="hero_img rounded-circle" src="./src/images/profile2.jpg" alt="foto de moises">
+      <h1>Samantha Marcano</h1>
+      <h2>Community Manager</h2>
+      <h2>Especialista en Marketing</h2>
+    </div>
+
+    <div class="hero_inferior">
+      <img class="hero_inferior_img img-fluid" src="src/images/community2.png" alt="community_manager">
+    </div>
+  </section>
+
+  <!-- ABOUT ME -->
+  <section class="about_me seccion_oscura" id="aboutMe">
+    <h2 class="section_title">Conoceme un poco</h2>
+    <div class="about_container text-center">
+
+      <!-- <img src="./corazoncito.png"  width="150" srcset=""> -->
+      <article class="about_item">
+
+
+        <img class="hero_img rounded-circle imagen-circular" src="./src/images/profile.jpg" alt="">
+
+        <p class="about_text"> Hola, mi nombre es Samantha Marcano, tengo 33 años y si estas viendo esto, es porque
+          estas
+          buscando una persona con mis cualidades para hacer de tu presencia digital un lugar de valor</p>
+      </article>
+
+      <article class="about_item">
+        <img class="hero_img rounded-circle imagen-circular" src="./src/images/profile2.jpg" alt="">
+        <p class="about_text">Soy una persona Enérgica, Comunicativa, alegre y muy dispuesta a trabajar en equipo,
+          también soy
+          maquilladora lo que me hace tener ideas y una creatividad imparable y estoy segura de que podemos aprovecharla
+          para hacer de
+          tu marca un concepto totalmente diferente a los demás. Si necesitas un marca sólida, yo soy la indicada para
+          darle el valor que buscas</p>
+      </article>
+
+      <article class="about_item">
+
+        <img class="hero_img rounded-circle imagen-circular" src="./src/images/logo1.jpg" alt="">
+
+        <p class="about_text">Tengo experiencia, personalidad, carisma y valor para que juntos hagamos de tu marca un
+          concepto
+          diferente.
+        </p>
+
+      </article>
+  </section>
+
+  <!-- Sección de Destrezas -->
+  <section class="destrezas seccion_clara">
+    <h2 class="section_title">Destrezas</h2>
+    <h3 class="seccion_descripcion">Algunas de mis habilidades y destrezas como Community Manager</h3>
+
+    <!-- Contenedor de destrezas -->
+    <div class="container text-center destrezas_contenedor">
+
+      <!-- Destreza 1 -->
+      <div class="col-12 col-md-4">
+        <div class="destreza">
+          <i class="bi bi-laptop"></i>
+          <h4>Desarrollo de contenido</h4>
+        </div>
+      </div>
+      <!-- Destreza 2 -->
+      <div class="col-12 col-md-4">
+        <div class="destreza">
+          <i class="bi bi-camera"></i>
+          <h4>Creatividad y diseño</h4>
+        </div>
+      </div>
+      <!-- Destreza 3 -->
+      <div class="col-12 col-md-4">
+        <div class="destreza">
+          <i class="bi bi-chat-left-text"></i>
+          <h4>Comunicación efectiva</h4>
+        </div>
+      </div>
+      <!-- Destreza 4 -->
+      <div class="col-12 col-md-4">
+        <div class="destreza">
+          <i class="bi bi-graph-up"></i>
+          <h4>Análisis y métricas</h4>
+        </div>
+      </div>
+      <!-- Destreza 5 -->
+      <div class="col-12 col-md-4">
+        <div class="destreza">
+          <i class="bi bi-people"></i>
+          <h4>Trabajo en equipo</h4>
+        </div>
+      </div>
+      <!-- Destreza 6 -->
+      <div class="col-12 col-md-4">
+        <div class="destreza">
+          <i class="bi bi-lightbulb"></i>
+          <h4>Innovación y creatividad</h4>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- FORMACION -->
+    <h2 class="section_title">Formacion</h2>
+    <div class="container text-center destrezas_contenedor">
+      <!-- Formacion 1 -->
+      <div class="col-12 col-md-4">
+        <div class="formacion_item">
+          <i class="bi bi-pencil"></i>
+          <h4>Emprendimiento y marcas digitales</h4>
+          <p>@Tisseldigital</p>
+        </div>
+      </div>
+      <!-- Formacion 2 -->
+      <div class="col-12 col-md-4">
+        <div class="formacion_item">
+          <i class="bi bi-pencil"></i>
+          <h4>Community Manager</h4>
+          <p class="formacion_source">
+            @Victorpalmiestti
+          </p>
+        </div>
+      </div>
+      <!-- Formacion 3 -->
+      <div class="col-12 col-md-4">
+        <div class="formacion_item">
+          <i class="bi bi-pencil"></i>
+          <h4>Community Manager Profesional</h4>
+          <p class="formacion_source">
+            @Creativedisenos
+          </p>
+        </div>
+      </div>
+      <!-- Formacion 4 -->
+      <div class="col-12 col-md-4">
+        <div class="formacion_item">
+          <i class="bi bi-pencil"></i>
+          <h4>Manejo de herramientas de IA</h4>
+          <p class="formacion_source">
+            @Creativedisenos
+          </p>
+        </div>
+      </div>
+      <!-- Formacion 5 -->
+      <div class="col-12 col-md-4">
+        <div class="formacion_item">
+          <i class="bi bi-pencil"></i>
+          <h4>Edición de Video</h4>
+          <p class="formacion_source">
+            @Luzzidigal
+          </p>
+        </div>
+      </div>
+      <!-- Formacion 6 -->
+      <div class="col-12 col-md-4">
+        <div class="formacion_item">
+          <i class="bi bi-pencil"></i>
+          <h4>Gestion de ADS Meta</h4>
+          <p class="formacion_source">
+            @MTSProducciones
+          </p>
+        </div>
+      </div>
+      <!-- Formacion 7 -->
+      <div class="col-12 col-md-4">
+        <div class="formacion_item">
+          <i class="bi bi-pencil"></i>
+          <h4>Gestion de ADS Meta</h4>
+          <p class="formacion_source">
+            @MTSProducciones
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- SECCION DE ESPECIALIZADES -->
+
+  <section class="especialidades_container seccion_oscura">
+    <h2 class="section_title">Especialidades</h2>
+
+    <ul class="especialidades groupOne">
+      <li><i class="bi bi-check"></i>
+        <p>Investigación, Análisis y Redaccion de contenido para post de Instagram</p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Uso y supervisión de buen manejo de herramientas de Instagram</p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Análisis de debilidades de marcas para convertirlas en fortalezas</p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Análisis y diseño de pautas para contenidos de Tiktok e Instagram</p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Supervisión de cumplimientos de posteos acorde a la grilla de contenidos</p>
+      </li>
+    </ul>
+    <ul class="especialidades groupTwo">
+      <li><i class="bi bi-check"></i>
+        <p>Elaboración de Reportes de ADS, estadísticas generales quicenales y al cierre de mes</p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Selección de temas según análisis del comportamiento de la audiciencia</p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Uso de recursos propios y buen manejo de la IA para sumar valor a la marga y estrategias de contenido</p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Análisis de tendencias en tiktok para mejorar creación de contenido disruptivo y seguimiento de estadísticas
+        </p>
+      </li>
+      <li><i class="bi bi-check"></i>
+        <p>Organización de tareas con Notion, Asana y/o Trello</p>
+      </li>
+    </ul>
+  </section>
+
+
+  <!--SECCION PLATAFORMAS  -->
+
+  <section class="plataformas seccion_clara">
+    <h2 class="section_title">Plataformas que uso</h2>
+
+    <div class="plataformas_container">
+      <div class="plataforma">
+        <img src="./src/images/LogoMeta.png" alt="logo_meta" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoAsana.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoCanvas.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoDrive.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoFace.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoGpt.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoIg.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoTB.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoTiktok.png" alt="" srcset="">
+      </div>
+      <div class="plataforma">
+        <img src="./src/images/LogoTrello.png" alt="" srcset="">
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Experiency -->
+
+
+  <!-- Seccion Articulos -->
+  <!-- <section class="arcitulos justify-content-start">
+    <h2 class="section_title">Artículos</h2>
+    <div class="card">
+      <div class="card-header">
+        Mas Recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="http://www.freecodecamp.com/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">An item</li>
+        </a>
+        <a href="http://www.freecodecamp.com/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">An item</li>
+        </a>
+        <a href="http://www.freecodecamp.com/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">An item</li>
+        </a>
+        <a href="http://www.freecodecamp.com/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">An item</li>
+        </a>
+        <a href="http://www.freecodecamp.com/news" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">An item</li>
+        </a>
+      </ul>
+    </div>
+
+    <a href="https://www.github.com" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Ver mas Artículos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section> -->
+
+  <!--Secction de Testomonios -->
+  <section id="testimonios" class="testimonios seccion_clara">
+    <h2 class="section_title">Testimonios</h2>
+    <h3 class="seccion_descripcion">Estos son algunos testímonios de mis ....</h3>
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carrusel-dark slide">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="container">
+            <img src="./src/images/avatar.png" class="testimonio_image rounded-circle" alt="Foto o imagen de Gino">
+            <p class="testimonio_texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore odit molestiae temporibus error quia eum vel,
+              voluptas ducimus, distinctio corrupti, nam doloribus accusantium
+            </p>
+            <div class="testimonio_info">
+              <p class="cliente">Gino</p>
+              <p class="cargo_cliente">Gerente de Proyectos en Desarrollo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./src/images/avatar.png" class="testimonio_image rounded-circle" alt="Foto o imagen de Nora">
+            <p class="testimonio_texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore odit molestiae temporibus error quia eum vel,
+              voluptas ducimus, distinctio corrupti, nam doloribus accusantium
+              explicabo repellat ex fugit culpa ipsa consequuntur.
+            </p>
+            <div class="testimonio_info">
+              <p class="cliente">Nora</p>
+              <p class="cargo_cliente">Gerente de Diseño</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="container">
+            <img src="./src/images/avatar.png" class="testimonio_image rounded-circle"
+              alt="Foto o imagen de Leonardo">
+            <p class="testimonio_texto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore odit molestiae temporibus error quia eum vel,
+              voluptas ducimus, distinctio corrupti, nam doloribus accusantium
+              explicabo repellat ex fugit culpa ipsa consequuntur.
+            </p>
+            <div class="testimonio_info">
+              <p class="cliente">Leonardo</p>
+              <p class="cargo_cliente">Director de finanzas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contacto seccion_oscura">
+    <div class="container">
+      <div id="contacto" class="container text-center d-flex justify-content-evenly rectangulo">
+        <div class="row">
+          <div class="col-12 col-md-4 section_title">Hablemos!!</div>
+          <div class="col-12 col-md-4 description">Contactame para Iniciar tu Proyecto</div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:moises@micorreo.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-at-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="seccion_oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="logo" src="src/images/Logo Samy.png" alt="Mi logo">
+    <p class="footer_text text-center">
+      No hablemos mas, <br> Comencemos a trabajar juntos!!
+    </p>
+    <div class="social_media d-flex flex-wrap align-items-center justify-content-center">
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter-x"></i>
+      </a>
+      <a href="http://" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope-at-fill"></i>
+      </a>
+    </div>
+    <div class="copyright">
+      Creado por Moises Castillo (2024) &#169;
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="./src/js/main.js"></script>
+</body>
+
+</html>
